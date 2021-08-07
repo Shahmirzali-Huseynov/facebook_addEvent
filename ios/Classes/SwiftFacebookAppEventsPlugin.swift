@@ -4,7 +4,7 @@ import FBSDKCoreKit
 
 public class SwiftFacebookAppEventsPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "flutter.oddbit.id/facebook_app_events", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "flutter.Shahmirzali-Huseynov.id/facebook_app_events", binaryMessenger: registrar.messenger())
         let instance = SwiftFacebookAppEventsPlugin()
 
         // Required for FB SDK 9.0, as it does not initialize the SDK automatically any more.
